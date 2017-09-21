@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="11.yunsuan.js">
+    </script>
+    <style>
+        boder,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        
+        td {
+            text-align: center;
+            width: 300px;
+        }
+        
+        #table2 td {
+            text-align: center;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>javascript运算符</h1>
+    <ol>
+        <li>算数运算符</li>
+        <p>+、-、 *、%、/（取余）、++（自加）、--</p>
+        <li>赋值运算符</li>
+        <p>=、+=、-=、*=、/=、%=</p>
+        <li>字符串操作</li>
+        <p></p>
+        <li>比较运算符</li>
+        <p>==（判断是否相等，值）、===(绝对等于，值+类型)、！==、>、 >=、
+            <、 <=</p>
+                <li>逻辑运算符</li>
+                <p>&&（与）、||（或）、！（非）</p>
+                <li>条件运算符</li>
+                <p>例：x
+                    <10? "x比10小"： "x比10大"</p>
+    </ol>
+    <h2>实例</h2>
+    <table>
+        <h3> 算术运算符+赋值运算符</h3>
+        <tr>
+            <td>
+                <p>第一题、i=10,j=10,i+j=?</p>
+                <p id="sumid1"></p>
+                <button onclick="mySum1()">点击获取答案</button></td>
+            <td>
+                <p>第二题、i=10,j=10,i-j=?</p>
+                <p id="sumid2"></p>
+                <button onclick="mySum2()">点击获取答案</button></td>
+            <td>
+                <p>第三题、i=10,j=10,i*j=?</p>
+                <p id="sumid3"></p>
+                <button onclick="mySum3()">点击获取答案</button></td>
+        </tr>
+        <tr>
+            <td>
+                <p>第四题、i=10,j=10,i/j=?</p>
+                <p id="sumid4"></p>
+                <button onclick="mySum4()">点击获取答案</button></td>
+            <td>
+                <p>第五题、i=10,j=9,i%j=?</p>
+                <p id="sumid5"></p>
+                <button onclick="mySum5()">点击获取答案</button></td>
+            <td>
+                <p>第六题、i=10,j=++i,j=?</p>
+                <p id="sumid6"></p>
+                <button onclick="mySum6()">点击获取答案</button></td>
+        </tr>
+        <tr>
+            <td>
+                <p>第七题、i=10,j=10,i+=j?</p>
+                <p id="sumid7"></p>
+                <button onclick="mySum7()">点击获取答案</button></td>
+        </tr>
+
+    </table>
+    <table id="table2">
+        <h3> 字符串操作+比较运算符+逻辑运算符+条件运算符</h3>
+        <tr>
+            <td>
+                <p>第一题、i=“10”,j=10,i+j=?(字符串操作)</p>
+                <p id="sumid8"></p>
+                <button onclick="mySum8()">点击获取答案</button></td>
+            <td>
+                <p>第二题、i=10,j=10,i==j?（比较运算符，返回值为布尔类型）</p>
+                <p id="sumid9"></p>
+                <button onclick="mySum9()">点击获取答案</button></td>
+            <td>
+                <p>第三题、i=101,j=10,i>100&&j
+                    <100(两者都满足即可)</p>
+                        <p id="sumid10"></p>
+                        <button onclick="mySum10()">点击获取答案</button></td>
+        </tr>
+        <tr>
+            <td>
+                <p>第四题、i=11进行条件运算</p>
+                <p id="sumid11"></p>
+                <button onclick="mySum11()">点击获取答案</button></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

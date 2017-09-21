@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS初体验</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        span {
+            font-size: 60px;
+            color: #f0f;
+        }
+    </style>
+    <script src="JS/01.text.js">
+    </script>
+    <script type="text/javascript">
+        alert("这是我的第一次输出！！"); /*浏览器解析顺序，由上往下，上部东西没有解析完成，下部不继续执行*/
+    </script>
+</head>
+
+<body>
+    <h1>我在这里，你猜我什么时候显示出来（按顺序执行，到我出场时我才出现）。</h1>
+    <script type="text/javascript">
+        alert("这是我的第二次输出！！我在内容部分,我用于最早期的调试");
+
+        confirm("这是我的第四次输出！！我在内容后面，我是一个对话框，常和if语句配合使用");
+
+        console.log("这是我的第四次输出！！我在控制台显示，其实玩的最好的是百度");
+
+        prompt("请输入您的银行卡号，并确认登录，我常被用于用户信息收集");
+
+        document.write("这是我的第<span>5</span>次输出");
+        document.write("<bottom>点击我试试看！</bottom>");
+    </script>
+    <h1>变量</h1>
+</body>
+
+</html>
